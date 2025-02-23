@@ -25,4 +25,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: hazepynut/debian:${{ github.ref_name }}
+          tags: hazepynut/ubuntu:${{ github.ref_name }}
